@@ -1,0 +1,40 @@
+.advantages {
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+& .advantages__list {
+    width: 1170px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+&__item:not(:last-child) {
+    margin-right: 30px;
+}
+&__header {
+    font-family: var(--text-font);
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    color: var(--main-black);
+    line-height: 1.143;
+
+    margin-bottom: 10px;
+}
+&__text {
+    font-family: var(--text-font);
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    color: var(--main-grey);
+    line-height: 1.714;
+    white-space: pre;
+}
+&__icon {
+    background-color: var(--background-colour-team);
+    width: 270px;
+    height: 120px;
+    padding: 25px 100px;
+    margin-bottom: 30px;
+}
+}

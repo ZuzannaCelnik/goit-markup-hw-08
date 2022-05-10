@@ -1,0 +1,23 @@
+.footer__join {
+    padding-top: 12px;
+    margin-right: 78px;
+}
+
+.join__title {
+    font-family: var(--text-font);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 3%;
+    text-transform: uppercase;
+    color: var(--white);
+    margin-bottom: 20px;
+}
+
+.social__link--footer {
+    background-color: rgba(255, 255, 255, 0.1)
+}
+
+.social__icon--footer {
+    fill: var(--white);
+}

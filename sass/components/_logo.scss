@@ -1,0 +1,14 @@
+.logo {
+    font-size: 26px;
+    font-family: var(--logo-font);
+    letter-spacing: 0, 03em;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 1.192;
+
+    &__span {
+            color: var(--brand-blue);
+        }
+}
+
