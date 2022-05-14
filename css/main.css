@@ -51,11 +51,6 @@ img {
   display: block;
 }
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .list {
   list-style: none;
 }
@@ -532,27 +527,31 @@ img {
   padding-right: 32px;
 }
 
+.clients .section {
+  padding-bottom: 0px;
+}
+
 .clients__title {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .clients__list {
   display: flex;
-  align-content: center;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .clients__item {
-  width: 170px;
+  width: 210px;
 }
 
 .clients__item:not(:last-child) {
-  margin-right: 30px;
+  margin-bottom: 30px;
 }
 
 .clients__link {
   display: flex;
-  padding: 18px 32px 14px 32px;
+  padding: 16px 52px;
   border: 1px solid var(--icon-grey);
   border-radius: 4px;
   fill: var(--icon-grey);
@@ -562,6 +561,12 @@ img {
 .clients__link:hover, .clients__link:focus {
   fill: var(--brand-blue);
   border-color: var(--brand-blue);
+}
+
+.clients__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .grid {
@@ -651,17 +656,19 @@ img {
 
 .footer {
   padding: 0;
+  margin-top: 30px;
   background-color: var(--background-colour);
 }
 
 .footer .container {
   display: flex;
+  flex-direction: column;
   padding: 0;
 }
 
 .footer__company {
   padding-top: 60px;
-  margin-right: 70px;
+  text-align: center;
 }
 
 .footer__logo {
@@ -678,6 +685,8 @@ img {
   letter-spacing: 0.03em;
   line-height: 1.714;
   width: fit-content;
+  text-align: center;
+  margin: 0;
   padding-bottom: 60px;
   padding-top: 20px;
 }
@@ -711,7 +720,6 @@ img {
 
 .footer__join {
   padding-top: 12px;
-  margin-right: 78px;
 }
 
 .join__title {
