@@ -1,15 +1,16 @@
 .advantages {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 
 & .advantages__list {
-    width: 1170px;
     list-style: none;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
 &__item:not(:last-child) {
-    margin-right: 30px;
+    margin-bottom: 30px;
 }
 &__header {
     font-family: var(--text-font);
@@ -18,6 +19,7 @@
     letter-spacing: 0.03em;
     color: var(--main-black);
     line-height: 1.143;
+    text-align: center;
 
     margin-bottom: 10px;
 }
@@ -28,13 +30,58 @@
     letter-spacing: 0.03em;
     color: var(--main-grey);
     line-height: 1.714;
-    white-space: pre;
+    margin: 0 auto;
 }
 &__icon {
     background-color: var(--background-colour-team);
-    width: 270px;
+    width: 450px;
     height: 120px;
-    padding: 25px 100px;
+    padding: 25px 190px;
     margin-bottom: 30px;
 }
 }
+
+// .advantages {
+//     padding-top: 94px;
+//     padding-bottom: 94px;
+
+//     & .advantages__list {
+//         width: 1170px;
+//         list-style: none;
+//         display: flex;
+//         justify-content: center;
+//     }
+
+//     &__item:not(:last-child) {
+//         margin-right: 30px;
+//     }
+
+//     &__header {
+//         font-family: var(--text-font);
+//         font-size: 14px;
+//         font-weight: 700;
+//         letter-spacing: 0.03em;
+//         color: var(--main-black);
+//         line-height: 1.143;
+
+//         margin-bottom: 10px;
+//     }
+
+//     &__text {
+//         font-family: var(--text-font);
+//         font-size: 14px;
+//         font-weight: 400;
+//         letter-spacing: 0.03em;
+//         color: var(--main-grey);
+//         line-height: 1.714;
+//         white-space: pre;
+//     }
+
+//     &__icon {
+//         background-color: var(--background-colour-team);
+//         width: 270px;
+//         height: 120px;
+//         padding: 25px 100px;
+//         margin-bottom: 30px;
+//     }
+// }
