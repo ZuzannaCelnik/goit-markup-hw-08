@@ -14,10 +14,13 @@
 </head>
 <body>
 <!-- HEADER START -->
-    <!-- <header class="header section">
+    <header class="header section">
         <div class="container">
-            <nav class="navigation">
             <a class="logo header__logo" href="index.html"><span class="logo__span">Web</span>Studio</a>
+            <svg class="burger__icon" width="24" height="16">
+                <use href="./images/sprite.svg#icon-burger"></use>
+            </svg>
+            <nav class="navigation">
                 <ul class="navigation__list">
                     <li class="navigation__item"><a class="navigation__link navigation__link--active" href="index.html">Agencja</a></li>
                     <li class="navigation__item"><a class="navigation__link" href="portfolio.html">Portfolio</a></li>
@@ -37,7 +40,7 @@
                     +48 111 111 111</a></li>
             </ul>
         </div>
-    </header> -->
+    </header>
 <!-- HEADER END -->
     <main>
 <!-- HERO START -->
@@ -151,7 +154,7 @@
                         <source srcset="./images/team/teamcard2mobile@1x.jpg 1x, ./images/team/teamcard2mobile@2x.jpg 2x" media="(min-width: 320px) and (max-width: 767px)"/>
                         <source srcset="./images/team/teamcard2tablet@1x.jpg 1x, ./images/team/teamcard2tablet@2x.jpg 2x" media="(min-width: 767px) and (max-width: 1199px)"/>
                         <source srcset="./images/team/teamcard2desktop@1x.jpg 1x, ./images/team/teamcard2desktop@2x.jpg 2x" media="(min-width: 1200px)" />
-                    <img src="/images/team/teamcard2mobile@1x.jpg" alt="Frontend Developer" width="270" height="260">
+                    <img src="/images/team/teamcard2mobile@1x.jpg" alt="Frontend Developer" />
                     </picture>
                 <h3 class="team__name">John Doe</h3>
                 <p class="team__position">Frontend Developer</p>
@@ -183,7 +186,7 @@
                         <source srcset="./images/team/teamcard3mobile@1x.jpg 1x, ./images/team/teamcard3mobile@2x.jpg 2x" media="(min-width: 320px) and (max-width: 767px)"/>
                         <source srcset="./images/team/teamcard3tablet@1x.jpg 1x, ./images/team/teamcard3tablet@2x.jpg 2x" media="(min-width: 767px) and (max-width: 1199px)"/>
                         <source srcset="./images/team/teamcard3desktop@1x.jpg 1x, ./images/team/teamcard3desktop@2x.jpg 2x" media="(min-width: 1200px)" />
-                    <img src="./images/team/teamcard3mobile@1x.jpg" alt="Marketing" width="270" height="260">
+                    <img src="./images/team/teamcard3mobile@1x.jpg" alt="Marketing" />
                     </picture>
                 <h3 class="team__name">John Doe</h3>
                 <p class="team__position">Marketing</p>
@@ -210,7 +213,13 @@
                         </a></li>
                 </ul>
                 </li>
-                <li class="team__item"><img src="./images/personfour.jpg" alt="UI Designer" width="270" height="260">
+                <li class="team__item">
+                     <picture>
+                        <source srcset="./images/team/teamcard4mobile@1x.jpg 1x, ./images/team/teamcard4mobile@2x.jpg 2x" media="(min-width: 320px) and (max-width: 767px)"/>
+                        <source srcset="./images/team/teamcard4tablet@1x.jpg 1x, ./images/team/teamcard4tablet@2x.jpg 2x" media="(min-width: 767px) and (max-width: 1199px)"/>
+                        <source srcset="./images/team/teamcard4desktop@1x.jpg 1x, ./images/team/teamcard4desktop@2x.jpg 2x" media="(min-width: 1200px)" />
+                            <img src="./images/team/teamcard4mobile@1x.jpg" alt="UI Designer" />
+                    </picture>
                 <h3 class="team__name">John Doe</h3>
                 <p class="team__position">UI Designer</p>
                 <ul class="social__list team__social list">

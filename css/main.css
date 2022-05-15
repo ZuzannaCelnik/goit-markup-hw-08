@@ -171,8 +171,19 @@ img {
 }
 
 .header__logo {
-  margin-right: 93px;
+  margin-right: 284px;
   color: var(--logo-black);
+}
+
+.burger__icon {
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.burger__icon:hover, .burger__icon:focus {
+  fill: var(--brand-blue);
+  cursor: pointer;
 }
 
 .navigation {
@@ -189,7 +200,7 @@ img {
   line-height: 1.143;
   list-style: none;
   text-decoration: none;
-  display: flex;
+  display: none;
   align-items: center;
 }
 
@@ -245,7 +256,7 @@ img {
 }
 
 .contact {
-  display: flex;
+  display: none;
   list-style: none;
 }
 
@@ -491,6 +502,10 @@ img {
   margin-bottom: 30px;
 }
 
+.team__item:last-child {
+  margin-bottom: 60px;
+}
+
 .team__item {
   background-color: var(--white);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -533,6 +548,7 @@ img {
 
 .clients__title {
   margin-bottom: 30px;
+  margin-top: 60px;
 }
 
 .clients__list {
@@ -663,6 +679,8 @@ img {
 .footer .container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 0;
 }
 
@@ -720,6 +738,7 @@ img {
 
 .footer__join {
   padding-top: 12px;
+  margin-bottom: 60px;
 }
 
 .join__title {
@@ -731,6 +750,7 @@ img {
   text-transform: uppercase;
   color: var(--white);
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .social__link--footer {
@@ -747,7 +767,7 @@ img {
 
 .newsletter__form {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
 }
 
@@ -761,11 +781,12 @@ img {
   margin-bottom: 20px;
   margin-top: 0;
   margin-right: 0;
+  text-align: center;
 }
 
 .newsletter__email {
   background-color: transparent;
-  width: 358px;
+  width: 450px;
   height: 50px;
   font-size: 16px;
   color: rgba(255, 255, 255, 0.6);
@@ -782,6 +803,8 @@ img {
   padding: 10px 24px 10px 42px;
   width: 200px;
   height: 50px;
+  margin-top: 20px;
+  margin-bottom: 60px;
 }
 
 .newsletter__icon {
