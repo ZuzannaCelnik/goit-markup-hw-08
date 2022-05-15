@@ -3,3 +3,7 @@
     -webkit-appearance: none;
     appearance: none;
 }
+.hidden {
+    opacity: 0;
+    pointer-events: none;
+}

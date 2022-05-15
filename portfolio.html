@@ -15,14 +15,17 @@
 <body>
     <header class="header section">
         <div class="container">
+            <a class="logo header__logo" href="index.html"><span class="logo__span">Web</span>Studio</a>
+            <svg class="burger__icon" data-menu-open width="24" height="16">
+                <use href="./images/sprite.svg#icon-burger"></use>
+            </svg>
             <nav class="navigation">
-                <a class="logo header__logo" href="index.html"><span class="logo__span">Web</span>Studio</a>
-                    <ul class="navigation__list">
-                        <li class="navigation__item"><a class="navigation__link" href="index.html">Agencja</a></li>
-                        <li class="navigation__item"><a class="navigation__link navigation__link--active" href="portfolio.html">Portfolio</a></li>
-                        <li class="navigation__item"><a class="navigation__link" href="#">Kontakt</a></li>
-                    </ul>
-                </nav>
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a class="navigation__link navigation__link--active" href="index.html">Agencja</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="portfolio.html">Portfolio</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="#">Kontakt</a></li>
+                </ul>
+            </nav>
                 <ul class="contact">
                     <li class="contact__item"><a class="contact__link" href="mailto:info@devstudio.com">
                         <svg class="contact__icon" width="16" height="12">
@@ -76,7 +79,12 @@
                 <ul class="grid__list list">
                     <li class="grid__item">
                         <div class="item__img">
-                            <img class="img__flex" src="./images/portfolio/01_laptop.jpg" alt="Laptop" width="370" height="294">
+                    <picture>
+                        <source srcset="./images/portfolio/portfoliomenu1mobile@1x.jpg 1x, ./images/portfolio/portfoliomenu1mobile@2x.jpg 2x" media="(min-width: 320px) and (max-width: 767px)"/>
+                        <source srcset="./images/portfolio/portfoliomenu1tablet@1x.jpg 1x, ./images/portfolio/portfoliomenu1tablet@2x.jpg 2x" media="(min-width: 767px) and (max-width: 1199px)"/>
+                        <source srcset="./images/portfolio/portfoliomenu1desktop@1x.jpg 1x, ./images/portfolio/portfoliomenu1desktop@2x.jpg 2x" media="(min-width: 1200px)" />
+                        <img class="img__flex" src="./images/portfolio/portfoliomenu1mobile@1x.jpg" alt="Laptop" width="370" height="294">
+                    </picture>
                             <div class="img__overlay">
                                 <p class="img__text">Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji</p>
                             </div>
@@ -88,7 +96,12 @@
                     </li>
                     <li class="grid__item">
                         <div class="item__img">
-                            <img class="img__flex" src="./images/portfolio/02_basketball.jpg" alt="Dizajn" width="370" height="294">
+                        <picture>
+                            <source srcset="./images/portfolio/portfoliomenu2mobile@1x.jpg 1x, ./images/portfolio/portfoliomenu2mobile@2x.jpg 2x" media="(min-width: 320px) and (max-width: 767px)"/>
+                            <source srcset="./images/portfolio/portfoliomenu2tablet@1x.jpg 1x, ./images/portfolio/portfoliomenu2tablet@2x.jpg 2x" media="(min-width: 767px) and (max-width: 1199px)"/>
+                            <source srcset="./images/portfolio/portfoliomenu2desktop@1x.jpg 1x, ./images/portfolio/portfoliomenu2desktop@2x.jpg 2x" media="(min-width: 1200px)" />
+                            <img class="img__flex" src="/images/portfolio/portfoliomenu2mobile@1x.jpg" alt="Dizajn" width="370" height="294">
+                        </picture>
                             <div class="img__overlay">
                                 <p class="img__text">Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji</p>
                             </div>
@@ -100,7 +113,12 @@
                     </li>
                     <li class="grid__item">
                         <div class="item__img">
-                            <img class="img__flex"  src="./images/portfolio/03_restaurant.jpg" alt="Logo Restauracji Seafood" width="370" height="294">
+                        <picture>
+                            <source srcset="./images/portfolio/portfoliomenu3mobile@1x.jpg 1x, ./images/portfolio/portfoliomenu3mobile@2x.jpg 2x" media="(min-width: 320px) and (max-width: 767px)"/>
+                            <source srcset="./images/portfolio/portfoliomenu3tablet@1x.jpg 1x, ./images/portfolio/portfoliomenu3tablet@2x.jpg 2x" media="(min-width: 767px) and (max-width: 1199px)"/>
+                            <source srcset="./images/portfolio/portfoliomenu3desktop@1x.jpg 1x, ./images/portfolio/portfoliomenu3desktop@2x.jpg 2x" media="(min-width: 1200px)" />
+                            <img class="img__flex"  src="./images/portfolio/portfoliomenu3mobile@1x.jpg" alt="Logo Restauracji Seafood" width="370" height="294">
+                        </picture>
                             <div class="img__overlay">
                                 <p class="img__text">Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji</p>
                             </div>
@@ -112,7 +130,12 @@
                     </li>
                     <li class="grid__item">
                         <div class="item__img">
-                            <img class="img__flex" src="./images/portfolio/04_headphones.jpg" alt="Słuchawki" width="370" height="294">
+                            <picture>
+                            <source srcset="./images/portfolio/portfoliomenu4mobile@1x.jpg 1x, ./images/portfolio/portfoliomenu4mobile@2x.jpg 2x" media="(min-width: 320px) and (max-width: 767px)"/>
+                            <source srcset="./images/portfolio/portfoliomenu4tablet@1x.jpg 1x, ./images/portfolio/portfoliomenu4tablet@2x.jpg 2x" media="(min-width: 767px) and (max-width: 1199px)"/>
+                            <source srcset="./images/portfolio/portfoliomenu4desktop@1x.jpg 1x, ./images/portfolio/portfoliomenu4desktop@2x.jpg 2x" media="(min-width: 1200px)" />
+                            <img class="img__flex" src="./images/portfolio/portfoliomenu4mobile@1x.jpg" alt="Słuchawki" width="370" height="294">
+                        </picture>
                             <div class="img__overlay">
                                 <p class="img__text">Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji</p>
                             </div>
@@ -124,7 +147,12 @@
                     </li>
                     <li class="grid__item">
                         <div class="item__img">
-                            <img class="img__flex" src="./images/portfolio/05_boxes.jpg" alt="Pudełka" width="370" height="294">
+                        <picture>
+                            <source srcset="./images/portfolio/portfoliomenu5mobile@1x.jpg 1x, ./images/portfolio/portfoliomenu5mobile@2x.jpg 2x" media="(min-width: 320px) and (max-width: 767px)"/>
+                            <source srcset="./images/portfolio/portfoliomenu5tablet@1x.jpg 1x, ./images/portfolio/portfoliomenu5tablet@2x.jpg 2x" media="(min-width: 767px) and (max-width: 1199px)"/>
+                            <source srcset="./images/portfolio/portfoliomenu5desktop@1x.jpg 1x, ./images/portfolio/portfoliomenu5desktop@2x.jpg 2x" media="(min-width: 1200px)" />
+                        <img class="img__flex" src="./images/portfolio/05_boxes.jpg" alt="Pudełka" width="370" height="294">
+                        </picture>
                             <div class="img__overlay">
                                 <p class="img__text">Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji</p>
                             </div>
@@ -136,7 +164,12 @@
                     </li>
                     <li class="grid__item">
                         <div class="item__img">
-                        <img class="mainimg__" src="./images/portfolio/06_monitor.jpg" alt="Monitor" width="370" height="294">
+                        <picture>
+                            <source srcset="./images/portfolio/portfoliomenu6mobile@1x.jpg 1x, ./images/portfolio/portfoliomenu6mobile@2x.jpg 2x" media="(min-width: 320px) and (max-width: 767px)"/>
+                            <source srcset="./images/portfolio/portfoliomenu6tablet@1x.jpg 1x, ./images/portfolio/portfoliomenu6tablet@2x.jpg 2x" media="(min-width: 767px) and (max-width: 1199px)"/>
+                            <source srcset="./images/portfolio/portfoliomenu6desktop@1x.jpg 1x, ./images/portfolio/portfoliomen65desktop@2x.jpg 2x" media="(min-width: 1200px)" />
+                       <img class="img__flex" src="./images/portfolio/portfoliomenu6mobile@1x.jpg" alt="Monitor" width="370" height="294">
+                        </picture>
                             <div class="img__overlay">
                                 <p class="img__text">Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji</p>
                             </div>
@@ -148,7 +181,12 @@
                     </li>
                     <li class="grid__item">
                         <div class="item__img">
-                            <img class="img__flex" src="./images/portfolio/07_magazine.jpg" alt="Gazetka" width="370" height="294">
+                            <picture>
+                            <source srcset="./images/portfolio/portfoliomenu7mobile@1x.jpg 1x, ./images/portfolio/portfoliomenu7mobile@2x.jpg 2x" media="(min-width: 320px) and (max-width: 767px)"/>
+                            <source srcset="./images/portfolio/portfoliomenu7tablet@1x.jpg 1x, ./images/portfolio/portfoliomenu7tablet@2x.jpg 2x" media="(min-width: 767px) and (max-width: 1199px)"/>
+                            <source srcset="./images/portfolio/portfoliomenu7desktop@1x.jpg 1x, ./images/portfolio/portfoliomenu7desktop@2x.jpg 2x" media="(min-width: 1200px)" />
+                            <img class="img__flex" src="./images/portfolio/portfoliomenu7mobile@1x.jpg" alt="Gazetka" width="370" height="294">
+                        </picture>
                             <div class="img__overlay">
                                 <p class="img__text">Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji</p>
                             </div>
@@ -160,7 +198,12 @@
                     </li>
                     <li class="grid__item">
                         <div class="item__img">
-                            <img class="img__flex" src="./images/portfolio/08_tag.jpg" alt="Metka" width="370" height="294">
+                        <picture>
+                            <source srcset="./images/portfolio/portfoliomenu8mobile@1x.jpg 1x, ./images/portfolio/portfoliomenu8mobile@2x.jpg 2x" media="(min-width: 320px) and (max-width: 767px)"/>
+                            <source srcset="./images/portfolio/portfoliomenu8tablet@1x.jpg 1x, ./images/portfolio/portfoliomenu8tablet@2x.jpg 2x" media="(min-width: 767px) and (max-width: 1199px)"/>
+                            <source srcset="./images/portfolio/portfoliomenu8desktop@1x.jpg 1x, ./images/portfolio/portfoliomenu8desktop@2x.jpg 2x" media="(min-width: 1200px)" />
+                            <img class="img__flex" src="./images/portfolio/portfoliomenu8mobile@1x.jpg" alt="Metka" width="370" height="294">                        
+                        </picture>
                             <div class="img__overlay">
                                 <p class="img__text">Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji</p>
                             </div>
@@ -172,7 +215,12 @@
                     </li>
                     <li class="grid__item">
                         <div class="item__img">
-                            <img class="img__flex" src="./images/portfolio/09_writting.jpg" alt="Pisanie na laptopie" width="370" height="294">
+                            <picture>
+                            <source srcset="./images/portfolio/portfoliomenu9mobile@1x.jpg 1x, ./images/portfolio/portfoliomenu9mobile@2x.jpg 2x" media="(min-width: 320px) and (max-width: 767px)"/>
+                            <source srcset="./images/portfolio/portfoliomenu9tablet@1x.jpg 1x, ./images/portfolio/portfoliomenu9tablet@2x.jpg 2x" media="(min-width: 767px) and (max-width: 1199px)"/>
+                            <source srcset="./images/portfolio/portfoliomenu9desktop@1x.jpg 1x, ./images/portfolio/portfoliomenu9desktop@2x.jpg 2x" media="(min-width: 1200px)" />
+                            <img class="img__flex" src="./images/portfolio/portfoliomenu9mobile@1x.jpg" alt="Pisanie na laptopie" width="370" height="294">
+                        </picture>
                             <div class="img__overlay">
                                 <p class="img__text">Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji</p>
                             </div>
@@ -233,5 +281,17 @@
             </div>
         </div>
     </footer>
+
+    <div class="mobile-menu hidden" data-menu>
+        <button type="button" class="close" data-menu-close>
+            <svg class="close__icon mobile-menu__close-btn" >
+                <use href="./images/sprite.svg#icon-close-btn"></use>
+            </svg>
+        </button>
+        
+    </div>
+    
+    <script src="./js/mobile-menu.js"></script>
+
 </body>
 </html>

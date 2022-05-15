@@ -41,6 +41,30 @@
 }
 }
 
+@media screen and (min-width: 768px) {
+    .advantages{
+        &__list{
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-top: -30px;
+            margin-left: -30px;
+        }
+    }
+        &__item{
+            flex-basis: calc(100% / 2 - 30px);
+            margin-top: 30px;
+            margin-left: 30px;
+        }
+        &__item:not(:last-child) {
+            margin-bottom: 00px;
+        }
+}
+
+@media screen and (min-width: 1200px) {
+    .advantages__item{
+        flex-basis: calc(100% / 4 - 30px);
+    }
+}
 // .advantages {
 //     padding-top: 94px;
 //     padding-bottom: 94px;
