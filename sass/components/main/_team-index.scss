@@ -1,3 +1,4 @@
+@media screen and (min-width:320px) and (max-width:767px) {
 .team {
     background-color: var(--background-colour-team);
 
@@ -59,15 +60,18 @@
             padding-right: 32px;
         }
 }
+}
 
-
-@media screen and (min-width: 768px) {
+@media screen and (min-width:768px) and (max-width:1199px) {
     .team {
     & &__list {
             flex-direction: row;
             flex-wrap: wrap;
             margin-top: -30px;
             margin-left: -30px;
+        }
+        &__title {
+            padding-top: 94px;
         }
     }
 
