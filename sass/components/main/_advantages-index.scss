@@ -1,5 +1,6 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
 .advantages {
-    padding-top: 30px;
+    padding-top: 60px;
     padding-bottom: 60px;
 
 &__list {
@@ -40,9 +41,9 @@
     margin-bottom: 30px;
 }
 }
+}
 
-
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
 .advantages {
         padding-top: 60px;
 
