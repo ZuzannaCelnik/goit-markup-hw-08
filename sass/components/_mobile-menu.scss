@@ -52,9 +52,7 @@
     }
     
     .mobile-menu__close-btn {
-        display: flex;
-            justify-content: flex-end;
-            align-items: center;
+        position: absolute;
         width: 40px;
         height: 40px;
         padding: 7px;
