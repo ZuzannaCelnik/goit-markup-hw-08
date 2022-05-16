@@ -925,6 +925,7 @@ img {
 }
 
 .team {
+  padding-top: 60px;
   background-color: var(--background-colour-team);
 }
 
@@ -944,7 +945,7 @@ img {
 }
 
 .team__item:last-child {
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 .team__item {
