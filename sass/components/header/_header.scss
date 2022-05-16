@@ -30,7 +30,42 @@
         cursor: pointer;
     }
 }
+@media screen and (min-width: 768px) {
+.header {
+        padding: 0;
+        border-bottom: 1px solid var(--header-border-colour);
 
+        & .container {
+            width: 1200px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding-top: 24px;
+            padding-bottom: 24px;
+            margin: 0px auto;
+        }
+
+        &__logo {
+            margin-right: 284px;
+            color: var(--logo-black);
+        }
+    }
+
+    .burger__icon {
+        width: 24px;
+        height: 16px;
+        transition-property: fill;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+        &:hover,
+        &:focus {
+            fill: var(--brand-blue);
+            cursor: pointer;
+        }
+    }
+}
+@media screen and (min-width: 1200px) {}
 
 // .header {
 //     padding: 0;
