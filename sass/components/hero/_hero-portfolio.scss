@@ -54,7 +54,6 @@
 @media screen and (min-width: 768px) and (max-width: 1199px) {
     .hero__portfolio {
             padding-bottom: 30px;
-            padding-top: 20px;
         }
     
         .menu__list {
@@ -63,7 +62,7 @@
             flex-wrap: wrap;
             margin-top: 60px;
             justify-content: center;
-        }
+    
             .menu__item:not(:last-child) {
                 margin-right: 8px;
             }

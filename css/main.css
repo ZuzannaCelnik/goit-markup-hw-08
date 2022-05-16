@@ -658,7 +658,6 @@ img {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .hero__portfolio {
     padding-bottom: 30px;
-    padding-top: 30px;
   }
   .menu__list {
     display: flex;
