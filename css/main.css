@@ -166,15 +166,16 @@ img {
     border-bottom: 1px solid var(--header-border-colour);
   }
   .header .container {
+    max-width: 480px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin: 0px auto;
   }
   .header__logo {
-    margin-right: 284px;
+    margin-right: 180px;
     color: var(--logo-black);
   }
   .burger__icon {
@@ -195,7 +196,6 @@ img {
     border-bottom: 1px solid var(--header-border-colour);
   }
   .header .container {
-    width: 1200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
