@@ -37,19 +37,24 @@
             font-size: 34px;
             line-height: 1.176;
             letter-spacing: 0.02em;
-            color: var(--decorative-color);
+            color: var(--brand-blue);
         }
     
         &__social-list {
+            display: flex;
             justify-content: space-between;
             align-items: center;
-            flex-wrap: wrap;
+            flex-direction: row;
+            // flex-wrap: wrap;
         }
     
     
     }
     
     .mobile-menu__close-btn {
+        display: flex;
+            justify-content: flex-end;
+            align-items: center;
         width: 40px;
         height: 40px;
         padding: 7px;
@@ -61,7 +66,7 @@
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     
         &:hover {
-            fill: var(--decorative-color);
+            fill: var(--brand-blue);
         }
     }
     
@@ -71,14 +76,14 @@
         font-size: 40px;
         line-height: 1.175;
         letter-spacing: 0.02em;
-        color: var(--main-color);
+        color: var(--main-black);
         transition-property: color;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     
         &:hover,
         &:focus {
-            color: var(--decorative-color);
+            color: var(--brand-blue);
         }
     }
     
@@ -88,14 +93,14 @@
         font-size: 24px;
         line-height: 1.167;
         letter-spacing: 0.02em;
-        color: var(--second-color);
+        color: var(--main-grey);
         transition-property: color;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     
         &:hover,
         &:focus {
-            color: var(--decorative-color);
+            color: var(--brand-blue);
         }
     }
     
@@ -105,8 +110,9 @@
         font-size: 18px;
         line-height: 1.223;
         letter-spacing: 0.02em;
-        color: var(--decorative-color);
+        color: var(--brand-blue);
         position: relative;
+        margin-right: 20px;
     
     
     }
