@@ -54,14 +54,13 @@
 @media screen and (min-width: 768px) and (max-width: 1199px) {
     .hero__portfolio {
             padding-bottom: 30px;
-            padding-top: 30px;
-        }
+            }
     
         .menu__list {
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
-            margin-top: 60px;
+            margin-top: 30px;
             justify-content: center;
         }
             .menu__item:not(:last-child) {
@@ -103,7 +102,7 @@
                         0px 2px 2px rgba(0, 0, 0, 0.12);
                 }
             }
-}}
+}
 
 @media screen and (min-width: 1200px) {
     .hero__portfolio {
@@ -111,6 +110,7 @@
         }
     
         .menu__list {
+            padding-top: 30px;
             display: flex;
             justify-content: center;
     
