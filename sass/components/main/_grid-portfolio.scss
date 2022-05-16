@@ -97,7 +97,7 @@
             flex-direction: row;
             justify-content: space-between;
             align-items: flex-start;
-            margin-left: -30px;
+            margin-left: 0px;
             margin-top: -30px;
         }
     }
@@ -108,6 +108,7 @@
         // margin-left: 30px;
         // margin-top: 30px;
         flex-basis: calc(100% / 2 - 30px);
+        width: 354px;
 
         &:not(:last-child) {
             margin-bottom: 30px;
@@ -129,7 +130,7 @@
             letter-spacing: 0.06em;
             color: var(--main-black);
             line-height: 2;
-            padding: 20px 20px 4px 16px;
+            padding: 15px 4px 4px 16px;
         }
 
         &__text {
@@ -139,7 +140,7 @@
             letter-spacing: 0.03em;
             color: var(--main-grey);
             line-height: 1.875;
-            padding: 4px 24px 20px 24px;
+            padding: 4px 24px 20px 15px;
             margin: 0;
         }
     }
