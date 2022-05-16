@@ -4,14 +4,15 @@
 
 .menu__list {
     display: flex;
-    flex-direction: row;
+    // flex-direction: row;
     flex-wrap: wrap;
     margin-top: 60px;
-    // justify-content: center;
-
-    &__item:not(:last-child) {
-        margin-right: 8px;
-    }
+    justify-content: flex-start;
+    align-items: center;
+}
+.menu__item:not(:last-child) {
+    margin-right: 8px;
+    margin-top: 8px;
 }
 .menu__button {
     font-size: 16px;
@@ -26,6 +27,7 @@
     letter-spacing: 0.03em;
     background-color: var(--background-colour-team);
     border-radius: 4px;
+    width: 128px;
 
     height: 38px;
     padding: 6px 22px;
